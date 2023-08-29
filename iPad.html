@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Boly's Apple Store</title>
+  <meta name="keywords" content="Apple store, Apple, iphone,aripod,macbook">
+  <meta name="description" content="Cửa hàng chuyên bán sản phẩm Apple chính hãng">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="refresh" content="1800">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bt_css.css" />
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body onload="showSlides()">
+  <div id="arrow">
+    <a href="#">GotoTop</a>
+  </div>
+
+  <!--Menu_main-->
+  <div class="logo_menu">
+    <div>
+      <a href="index.html">
+        <img id="logo_main" src="images/Apple-Logo.gif" width="50px" alt="logo" />
+      </a>
+    </div>
+    <div>
+      <ul class="menu_main" id="menu_main1">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="iPhone.html">Product</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#"><i class="fas fa-search" onclick="search()"></i></a></li>
+
+      </ul>
+    </div>
+    <!--<div class="menu_icon"><img id="menu_icon" src="images/menu_icon.png" width="50px" ondblclick="repear1()" onclick="repear()" alt="icon"/></div>-->
+  </div>
+  <!-------------->
+
+  <!--Menu_main-->
+  <div class="logo_menu2">
+    <div>
+      <a href="index.html">
+        <img id="logo2" src="images/Apple-Logo.gif" width="50px" alt="logo" />
+      </a>
+    </div>
+    <div>
+      <ul class="menu_main2" id="menu_main2">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="iPhone.html">Product</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#"><i class="fas fa-search" onclick="search()"></i></a></li>
+
+      </ul>
+    </div>
+    <div class="menu_icon2"><img id="menu_icon2" src="images/menu_icon.png" width="50px" ondblclick="repear1()"
+        onclick="repear()" alt="icon2" /></div>
+  </div>
+  <!-------------->
+
+  <section id="product" class="banner">
+    <ul class="category-item">
+      <li>
+        <a href="iPhone.html">
+          <i class="fas fa-mobile-alt"></i>
+          <div>Apple</div>
+        </a>
+      </li>
+
+      <li>
+        <a href="iPad.html">
+          <i class="fas fa-tablet-alt"></i>
+          <div>iPad</div>
+        </a>
+      </li>
+
+      <li>
+        <a href="Mac.html">
+          <i class="fas fa-laptop"></i>
+          <div>Mac</div>
+        </a>
+      </li>
+
+      <li>
+        <a href="apple-watch.html">
+          <i class="fas fa-laptop"></i>
+          <div>Watch</div>
+        </a>
+      </li>
+
+      <li>
+        <a href="phu-kien.html">
+          <i class="fas fa-headphones-alt"></i>
+          <div>Phụ kiện</div>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="advertisement/slide1.png">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="advertisement/slide2.png">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="advertisement/slide3.png">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="advertisement/slide4.png">
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <div class="max-lines" onclick="currentSlide(1)">Đăng ký trước Siêu phẩm iPhone 13</div>
+      </div>
+      <div class="column">
+        <div class="max-lines" onclick="currentSlide(2)">iPhone 12 Series giảm sốc đến 4 triệu</div>
+      </div>
+      <div class="column">
+        <div class="max-lines" onclick="currentSlide(3)">Sắm Apple Watch Giảm Đến 3,3 Triệu</div>
+      </div>
+      <div class="column">
+        <div class="max-lines" onclick="currentSlide(4)">AirTag: Phụ kiện giúp định vị vật dụng cá nhân
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <section>
+    <div class="products">
+      <div class="product-item">
+        <div class="product-top">
+          <a class="learn_more" href="#">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="img-product/img-iPad/ipad-pro-2021-129-inch-silver.jpg" />
+                </div>
+                <div class="flip-box-back">
+                  <img src="img-product/img-iPad/ipad-pro-2021-129-inch-silver.jpg" />
+                </div>
+              </div>
+            </div>
+            <p class="buy-now">Mua ngay</p>
+          </a>
+        </div>
+        <div class="info">
+          <h3>iPad Pro M1 Cellular 256GB </h3>
+          <del>38.990.000</del>
+          <strong class="price">38.490.000 đ</strong>
+          <div style="width: 120px; height: 23px;" class="label">Coming soon</div>
+        </div>
+      </div>
+
+      <div class="product-item">
+        <div class="product-top">
+          <a class="learn_more" href="#">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="img-product/img-iPad/ipad-pro-2021-129-inch-gray.jpg" />
+                </div>
+                <div class="flip-box-back">
+                  <img src="img-product/img-iPad/ipad-pro-2021-129-inch-gray.jpg" />
+                </div>
+              </div>
+            </div>
+            <p class="buy-now">Mua ngay</p>
+          </a>
+        </div>
+        <div class="info">
+          <h3>iPad Pro M1 WiFi 128GB </h3>
+          <del>30.990.000</del>
+          <strong class="price">30.790.000 đ</strong>
+        </div>
+        <div class="label">Sale</div>
+      </div>
+
+      <div class="product-item">
+        <div class="product-top">
+          <a class="learn_more" href="#">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="img-product/img-iPad/ipad-pro-2021-129-inch-silver.jpg" />
+                </div>
+                <div class="flip-box-back">
+                  <img src="img-product/img-iPad/ipad-pro-2021-129-inch-silver.jpg" />
+                </div>
+              </div>
+            </div>
+            <p class="buy-now">Mua ngay</p>
+          </a>
+        </div>
+        <div class="info">
+          <h3>iPad Pro M1 WiFi 256GB </h3>
+          <del>34.990.000</del>
+          <strong class="price">33.990.000 đ</strong>
+        </div>
+        <div class="label">Sale</div>
+      </div>
+
+      <div class="product-item">
+        <div class="product-top">
+          <a class="learn_more" href="#">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="img-product/img-iPad/ipad-pro-2021-11-inch-silver.jpg" />
+                </div>
+                <div class="flip-box-back">
+                  <img src="img-product/img-iPad/ipad-pro-2021-11-inch-silver.jpg" />
+                </div>
+              </div>
+            </div>
+            <p class="buy-now">Mua ngay</p>
+          </a>
+        </div>
+        <div class="info">
+          <h3>iPad Pro M1 WiFi 256GB </h3>
+          <del>25.990.000</del>
+          <strong class="price">25.790.000 đ</strong>
+        </div>
+        <div class="label">Sale</div>
+      </div>
+
+      <div class="product-item">
+        <div class="product-top">
+          <a class="learn_more" href="#">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="img-product/img-iPad/ipad-pro-2021-11-inch-gray.jpg" />
+                </div>
+                <div class="flip-box-back">
+                  <img src="img-product/img-iPad/ipad-pro-2021-11-inch-gray.jpg" />
+                </div>
+              </div>
+            </div>
+            <p class="buy-now">Mua ngay</p>
+          </a>
+        </div>
+        <div class="info">
+          <h3>iPad Pro M1 WiFi 128GB </h3>
+          <del>22.990.000</del>
+          <strong class="price">22.790.000 đ</strong>
+        </div>
+        <div class="label">Sale</div>
+      </div>
+
+      <div class="product-item">
+        <div class="product-top">
+          <a class="learn_more" href="#">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="img-product/img-iPad/ipad-gen-8-cellular-bac.jpg" />
+                </div>
+                <div class="flip-box-back">
+                  <img src="img-product/img-iPad/ipad-gen-8-cellular-bac.jpg" />
+                </div>
+              </div>
+            </div>
+            <p class="buy-now">Mua ngay</p>
+          </a>
+        </div>
+        <div class="info">
+          <h3>iPad 8 Wifi Cellular 32GB </h3>
+          <del>13.990.000</del>
+          <strong class="price">13.790.000 đ</strong>
+          <div class="label">Hot</div>
+        </div>
+      </div>
+
+      <div class="product-item">
+        <div class="product-top">
+          <a class="learn_more" href="#">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="img-product/img-iPad/ipad-gen-8-cellular-bac.jpg" />
+                </div>
+                <div class="flip-box-back">
+                  <img src="img-product/img-iPad/ipad-gen-8-cellular-bac.jpg" />
+                </div>
+              </div>
+            </div>
+            <p class="buy-now">Mua ngay</p>
+          </a>
+        </div>
+        <div class="info">
+          <h3>iPad 8 Wifi Cellular 128GB </h3>
+          <del>15.990.000</del>
+          <strong class="price">11.790.000 đ</strong>
+          <div class="label">Sale</div>
+        </div>
+      </div>
+
+      <div class="product-item">
+        <div class="product-top">
+          <a class="learn_more" href="#">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="img-product/img-iPad/ipad-mini-79-inch-wifi-2019-gold.jpg" />
+                </div>
+                <div class="flip-box-back">
+                  <img src="img-product/img-iPad/ipad-mini-79-inch-wifi-2019-gold.jpg" />
+                </div>
+              </div>
+            </div>
+            <p class="buy-now">Mua ngay</p>
+          </a>
+        </div>
+        <div class="info">
+          <h3>iPad mini Wifi Cellular 64GB </h3>
+          <del>11.990.000</del>
+          <strong class="price">11.790.000 đ</strong>
+          <div class="label">Sale</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--contact-->
+  <div class="information" id="contact">
+    <div id="contact">
+      <h2>Boly's Apple</h2>
+      <p>Địa Chỉ: <b> Apple strore 108/6 </br>Phường 3 Gò Vấp tp.HCM</b></p>
+      <p>Hotline:<b>19008080</b></p>
+      <p>Email:<a href="mailto:BolyApple@gmail.com?subject=Phản hồi&body= Nội dung">
+          BolyApple@gmail.com
+        </a></p>
+    </div>
+    <div id="support">
+      <h3 class="title_infomation">Hỗ Trợ</h3>
+      <a class="learn_more" style="color:blue" ; href="#"> Hướng dẫn đặt hàng</a></br>
+      <p></p>
+      <a class="learn_more" style="color:blue" ; href="#"> Hình thức thanh toán</a></br>
+    </div>
+    <div id="time">
+      <h2></h2>
+      <h3 class="title_infomation">Giờ làm việc</h3>
+      <p>Thứ 2____7:00-21:00</p>
+      <p>Thứ 3____7:00-21:00</p>
+      <p>Thứ 4____7:00-21:00</p>
+      <p>Thứ 5____7:00-21:00</p>
+      <p>Thứ 6____7:00-21:00</p>
+      <p>Thứ 7,CN____7:00-22:00</p>
+    </div>
+    <div id="map">
+      <h3 class="title_infomation">Bản Đồ</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.870974885524!2d106.67321285034161!3d10.821184692253325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175292872eab0ff%3A0x74cb7f56624914c9!2zMTAzLzYvMyDEkC4gc-G7kSAyLCBQaMaw4budbmcgMywgR8OyIFbhuqVwLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1630048845338!5m2!1svi!2s"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+  <p id="end">&#169; 2021 Apple, KĐ, Boly Apple store </p>
+  <div id="search">
+    <div class="sub-sreach">
+      <h1 id="change-search">What are you looking for?</h1>
+      <p>
+        <input type="text" placeholder="Search" height="200px" width="100px" />
+        <img src="https://cdn3.iconfinder.com/data/icons/block/32/search-512.png" / width="50px">
+      </p>
+      <img id="logo-search" src="images/tao_2.png" />
+      <img id="logo-x" src="images/chu_x.png" onclick="unsub()" />
+    </div>
+  </div>
+</body>
+
+</html>
